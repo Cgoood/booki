@@ -55,3 +55,46 @@ nav a{
     }
 }
 
+.formulaire{
+    display: flex;
+
+}
+.formulaire i{
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.formulaire input{
+  padding-right: 20px;
+  border: 1px solid #f2f2f2;
+}
+
+.formulaire input::placeholder{
+font-weight: bold;
+font-size: 15px;
+
+}
+
+.formulaire button{
+background-color: #0065fc;
+color: white;
+border-radius: 0px 10px 10px 0px ;
+font-weight: bold;
+font-size: 15px;
+padding: 0px 15px;
+border: none;
+cursor: pointer
+}
+
+h1 {
+margin-bottom: 0.1px;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+
+
+
